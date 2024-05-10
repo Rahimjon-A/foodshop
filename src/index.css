@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+}
+
+body {
+    background-color: var(--bg-light);
+    color: #fff;
+}
+
+:root {
+    --bg-light: #252836;
+    --bg-dark: #1f1d2b;
+    --primary: #ea7c69;
+    --border: rgb(57, 60, 73);
+    --grey : #ABBBC2;
+    --input: rgb(45, 48, 62);
+    --drop: rgba(0, 0, 0, 0.7);
+    --bg-smth: #ff7ca3;
+
+}
+
+ul {
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
